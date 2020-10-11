@@ -1,0 +1,34 @@
+html{
+    background-color:salmon;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.navBarra{
+    display: inline-block;
+    background: rgb(250, 246, 2);
+    color: salmon;
+    text-decoration: none;
+    padding:  10px 30px;
+    text-align: right;
+}
+
+nav{
+    text-align: right;
+}
+.navBarra:hover{
+    background:  rgba(136, 255, 229, .10)
+}
+li {
+    list-style-type: none;
+}
+
+body{
+    background-color: rgb(156, 206, 221);
+}
+
+.deLado{
+    display: inline-block;
+}
