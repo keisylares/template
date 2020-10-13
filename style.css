@@ -1,34 +1,87 @@
 html{
-    background-color:salmon;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+header{
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+   
+   
 }
 h1{
     font-family: 'Lobster', cursive;
     font-size: 60px;
-    text-align: center;
+    color: white;
 }
 .navBarra{
     display: inline-block;
-    background: rgb(250, 246, 2);
+    background: black;
     color: salmon;
     text-decoration: none;
     padding:  10px 30px;
-    text-align: right;
+    align-items: stretch;
+    justify-self: right;
+    
 }
 
-nav{
+
+Nav {
+    display: flex;
+    align-items: stretch;
+    background-color: black;
+}
+img{
+    display: flex;
+}
+nav h1{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    background-color: black;
     text-align: right;
 }
+    
 .navBarra:hover{
     background:  rgba(136, 255, 229, .10)
 }
-li {
+
+ul{
     list-style-type: none;
 }
-
-body{
-    background-color: rgb(156, 206, 221);
+.encima {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-self: center;
 }
 
-.deLado{
-    display: inline-block;
+.encima2{
+    display: list-item;
+}
+body {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+main {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
+    background-color: rgb(108, 172, 255);
 }
